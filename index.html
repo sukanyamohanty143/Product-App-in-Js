@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- this header  -->
+    <div class="header">
+        <!-- this is home page button -->
+        <input type="button" value="Home" onclick="requsetApi()" class="btn">
+        <!-- this is lowest price button -->
+        <input type="button" value="Lowest Price" onclick="sortPrice()" class="btn1">
+        <!-- this is highest price button -->
+        <input type="button" value="Highest Price" onclick="unsortPrice()" class="btn2"> 
+        <!-- this is search bar -->
+        <h1 class="text">Products <input type="text" placeholder="Search.." class="search">&nbsp&nbsp<button class="searchBtn">Search</button></h1>
+        
+    </div>
+    <!-- this div display products -->
+    <div id="container">
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
